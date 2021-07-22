@@ -37,11 +37,11 @@ typedef uint16_t  tick_t;
 
 typedef struct
 {
-	const char		*nome;
+	const char	*nome;
 	stackptr_t 	stack_pointer;
 	estado_tarefa_t estado;
 	prioridade_t 	prioridade;
-	uint16_t		tempo_espera;
+	uint16_t	tempo_espera;
 }tcb_t;
 
 extern  uint8_t		tarefa_atual;

@@ -119,7 +119,9 @@ void tarefa_ociosa(void)
 	
 	for(;;)
 	{		
-		#if 1
+          // Cooperativo - Necessario habilitar //
+          // Preemptivo - Nao eh necessário habilitar //
+        	#if 1
 			REG_ATOMICA_INICIO();
 			TrocaContexto();				/* tarefa atual solicita troca de contexto */
 			REG_ATOMICA_FIM();

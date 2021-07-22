@@ -4153,7 +4153,7 @@
         "defdec": "Def",
         "display": "nome",
         "location": {
-          "column": "15",
+          "column": "14",
           "line": "40",
           "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\multitarefas.h"
         },
@@ -4209,7 +4209,7 @@
         "defdec": "Def",
         "display": "tempo_espera",
         "location": {
-          "column": "12",
+          "column": "11",
           "line": "44",
           "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\multitarefas.h"
         },
@@ -5289,13 +5289,41 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@212@macro@TAM_PILHA_1",
+    "ID": "c:@F@tarefa_3",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void tarefa_3(void)",
+    "location": {
+      "column": "6",
+      "line": "11",
+      "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "tarefa_3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@tarefa_4",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void tarefa_4(void)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "tarefa_4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@256@macro@TAM_PILHA_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TAM_PILHA_1",
     "location": {
       "column": "9",
-      "line": "15",
+      "line": "17",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "TAM_PILHA_1",
@@ -5303,13 +5331,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@258@macro@TAM_PILHA_2",
+    "ID": "c:main.c@302@macro@TAM_PILHA_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TAM_PILHA_2",
     "location": {
       "column": "9",
-      "line": "16",
+      "line": "18",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "TAM_PILHA_2",
@@ -5317,13 +5345,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@304@macro@TAM_PILHA_OCIOSA",
+    "ID": "c:main.c@348@macro@TAM_PILHA_OCIOSA",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TAM_PILHA_OCIOSA",
     "location": {
       "column": "9",
-      "line": "17",
+      "line": "19",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "TAM_PILHA_OCIOSA",
@@ -5337,7 +5365,7 @@
     "display": "PILHA_TAREFA_1",
     "location": {
       "column": "10",
-      "line": "22",
+      "line": "24",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "PILHA_TAREFA_1",
@@ -5351,7 +5379,7 @@
     "display": "PILHA_TAREFA_2",
     "location": {
       "column": "10",
-      "line": "23",
+      "line": "25",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "PILHA_TAREFA_2",
@@ -5365,7 +5393,7 @@
     "display": "PILHA_TAREFA_OCIOSA",
     "location": {
       "column": "10",
-      "line": "24",
+      "line": "26",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "PILHA_TAREFA_OCIOSA",
@@ -5379,7 +5407,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "29",
+      "line": "31",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "main",
@@ -5393,7 +5421,7 @@
     "display": "void tarefa_1(void)",
     "location": {
       "column": "6",
-      "line": "56",
+      "line": "58",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "tarefa_1",
@@ -5401,13 +5429,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1276@F@tarefa_1@a",
+    "ID": "c:main.c@1320@F@tarefa_1@a",
     "What": "Variable",
     "defdec": "Def",
     "display": "a",
     "location": {
       "column": "20",
-      "line": "58",
+      "line": "60",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "a",
@@ -5421,7 +5449,7 @@
     "display": "void tarefa_2(void)",
     "location": {
       "column": "6",
-      "line": "67",
+      "line": "69",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "tarefa_2",
@@ -5429,13 +5457,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1383@F@tarefa_2@b",
+    "ID": "c:main.c@1427@F@tarefa_2@b",
     "What": "Variable",
     "defdec": "Def",
     "display": "b",
     "location": {
       "column": "20",
-      "line": "69",
+      "line": "71",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "b",
@@ -5449,7 +5477,7 @@
     "display": "void tarefa_3(void)",
     "location": {
       "column": "6",
-      "line": "77",
+      "line": "79",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "tarefa_3",
@@ -5457,16 +5485,44 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1488@F@tarefa_3@c",
+    "ID": "c:main.c@1532@F@tarefa_3@c",
     "What": "Variable",
     "defdec": "Def",
     "display": "c",
     "location": {
       "column": "20",
-      "line": "79",
+      "line": "81",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "c",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@tarefa_4",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void tarefa_4(void)",
+    "location": {
+      "column": "6",
+      "line": "89",
+      "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "tarefa_4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1646@F@tarefa_4@d",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "d",
+    "location": {
+      "column": "27",
+      "line": "91",
+      "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "d",
     "origin": "project_file",
     "scope": null
   },
@@ -5701,7 +5757,7 @@
     "display": "void IniciaMultitarefas(void)",
     "location": {
       "column": "6",
-      "line": "131",
+      "line": "133",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\multitarefas.c"
     },
     "name": "IniciaMultitarefas",
@@ -5715,7 +5771,7 @@
     "display": "void TrocaContextoDasTarefas(void)",
     "location": {
       "column": "6",
-      "line": "139",
+      "line": "141",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\multitarefas.c"
     },
     "name": "TrocaContextoDasTarefas",
@@ -5729,7 +5785,7 @@
     "display": "void ExecutaMarcaDeTempo(void)",
     "location": {
       "column": "6",
-      "line": "157",
+      "line": "159",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\multitarefas.c"
     },
     "name": "ExecutaMarcaDeTempo",
@@ -5737,13 +5793,13 @@
     "scope": null
   },
   {
-    "ID": "c:multitarefas.c@4336@F@ExecutaMarcaDeTempo@tarefa",
+    "ID": "c:multitarefas.c@4453@F@ExecutaMarcaDeTempo@tarefa",
     "What": "Variable",
     "defdec": "Def",
     "display": "tarefa",
     "location": {
       "column": "10",
-      "line": "160",
+      "line": "162",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\multitarefas.c"
     },
     "name": "tarefa",
@@ -5757,7 +5813,7 @@
     "display": "void SemaforoAguarda(semaforo_t *)",
     "location": {
       "column": "6",
-      "line": "183",
+      "line": "185",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\multitarefas.c"
     },
     "name": "SemaforoAguarda",
@@ -5771,7 +5827,7 @@
     "display": "void SemaforoLibera(semaforo_t *)",
     "location": {
       "column": "6",
-      "line": "202",
+      "line": "204",
       "path": "E:\\FACULDADE\\Embarcados\\Sistemas Embarcados\\elc1048\\MULTITAREFAS\\IAR\\multitarefas.c"
     },
     "name": "SemaforoLibera",

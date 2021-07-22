@@ -8,6 +8,8 @@
  */
 void tarefa_1(void);
 void tarefa_2(void);
+void tarefa_3(void);
+void tarefa_4(void);
 
 /*
  * Configuracao dos tamanhos das pilhas
@@ -80,7 +82,17 @@ void tarefa_3(void)
 	for(;;)
 	{
 		c++;
-		TarefaSuspende(2);	
+		TarefaSuspende(100);	
 	}
+}
+
+void tarefa_4(void)
+{
+        volatile uint16_t d = 0;
+        for(;;)
+        {
+                d++;
+                TarefaEspera(100);
+        }
 }
     
